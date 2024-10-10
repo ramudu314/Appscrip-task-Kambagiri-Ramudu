@@ -1,0 +1,121 @@
+.header-container {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  width: 85%;
+  height: 65px;
+  display: flex;
+  padding: 0 0px 0 100px;
+
+  align-items: center;
+}
+
+.logo-img {
+  cursor: pointer;
+}
+
+.title {
+  cursor: pointer;
+  font-size: xx-large;
+
+  margin: 0 auto;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 14%;
+}
+
+.icon-img {
+  cursor: pointer;
+}
+
+.language-select {
+  border: none;
+  width: 55px;
+}
+
+.bottom-header {
+  width: 100%;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 0 1.7em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.description {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.description h1 {
+  letter-spacing: 4px;
+  padding-top: 40px;
+  font-size: 2.2em;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.description p {
+  margin: 20px 0;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.hamburger {
+  display: none;
+  height: 40px;
+  margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .bottom-header,
+  .language-select {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    width: 92%;
+    height: 65px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    gap: 5px;
+  }
+
+  .description {
+    margin-top: 5px;
+  }
+}

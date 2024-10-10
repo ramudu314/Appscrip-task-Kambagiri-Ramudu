@@ -1,0 +1,86 @@
+.footerContainer {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    gap: 0%;
+}
+
+.footerSectionOne,
+.footerSectionTwo {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.details {
+    width: 40%;
+}
+
+.details h6,
+.contactCurrency h6,
+.footerContainer h6 {
+    font-weight: 600;
+
+}
+
+.details input {
+    width: 50%;
+    border: none;
+    padding-left: 10px;
+}
+
+.details button {
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid rgb(252, 250, 248);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+.details input,
+.details button {
+    margin-top: 7%;
+    height: 40px;
+
+}
+
+.currency {
+    font-weight: 400;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+
+}
+
+.footerSectionTwo li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footerSectionTwo h4 {
+    margin-bottom: 5%;
+}
+
+.socialMediaPayment {
+    width: 32%;
+    cursor: pointer;
+}
+
+.paymentOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+
+}

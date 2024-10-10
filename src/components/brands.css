@@ -1,0 +1,159 @@
+.home {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .homeBanner {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px 100px;
+  }
+  
+  .itemsFilter {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .itemsFilter h6, .list-items {
+    border: none;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .length{
+    font-size: 24px;
+    font-weight: 600;
+    
+    cursor: pointer;
+    
+
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+  }
+  
+  .options label {
+    display: block;
+  }
+  
+  .card-container {
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 0px 40px 40px;
+  }
+  
+  .card {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-products {
+    width: 100%;
+    height: 500px;
+    max-width: 270px;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  .product-title {
+    width: 80%;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: gray;
+    margin: 5px;
+    padding: 5px 0px;
+  }
+  
+  .product-title:hover {
+    color: black;
+  }
+  
+  .wishlist {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .Show{
+    font-size: 30px;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+    border: solid black 2px;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .card {
+      width: calc(33.33% - 2%);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card {
+      width: calc(50% - 2%);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 80%;
+    }
+  
+    .homeBanner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .itemsFilter {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
